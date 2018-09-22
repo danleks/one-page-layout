@@ -257,7 +257,7 @@ export default {
     .header {
         position: relative;
         height: 90vh;
-        background-image: linear-gradient(to right, rgba(#000, .0)), url(../assets/img/home1.jpg);
+        background-image: linear-gradient(to right, rgba(#000, .0)), url(../assets/img/home.jpg);
         background-attachment: fixed; // parallax scrolling
         background-repeat: no-repeat;
         background-size: cover;
