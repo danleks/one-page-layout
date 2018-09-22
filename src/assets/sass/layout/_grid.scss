@@ -1,0 +1,74 @@
+// RESPONSIVE GRID
+
+$grid-width: 114rem;
+$h-gutter: 4rem;
+$v-gutter: 6rem;
+$v-gutter-mobile: 1rem;
+
+
+.row {
+  max-width: $grid-width;
+  margin: 0 auto;
+
+  &:not(:last-child) {
+    margin-bottom: $v-gutter;
+  }
+
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+[class^="col-"] {
+  float: left;
+
+  background-color: #ccc;
+
+  &:not(:last-child) {
+    margin-right: $h-gutter;
+  }
+}
+
+//FOR MOBILE PHONES
+@media only screen and (max-width: 600px) {
+  [class*="col-"] {
+  width: 100%;
+    &:not(:last-child) {
+      margin-bottom: $v-gutter-mobile;
+    }
+  }
+}
+
+//FOR TABLETS
+@media only screen and (min-width: 600px) {
+  .col-m-1 {width: calc((100% / 12) - #{$h-gutter})}
+  .col-m-2 {width: calc((100% / 6) - #{$h-gutter})}
+  .col-m-3 {width: calc((100% / 4) - #{$h-gutter})}
+  .col-m-4 {width: calc((100% / 3) - #{$h-gutter})}
+  .col-m-5 {width: calc((8.33% * 5) - #{$h-gutter})}
+  .col-m-6 {width: calc((8.33% * 6) - #{$h-gutter})}
+  .col-m-7 {width: calc((8.33% * 7) - #{$h-gutter})}
+  .col-m-8 {width: calc((8.33% * 8) - #{$h-gutter})}
+  .col-m-9 {width: calc((8.33% * 9) - #{$h-gutter})}
+  .col-m-10 {width: calc((8.33% * 10) - #{$h-gutter})}
+  .col-m-11 {width: calc((8.33% * 11) - #{$h-gutter})}
+  .col-m-12 {width: calc(100% - #{$h-gutter})}
+}
+
+//FOR DESKTOP
+@media only screen and (min-width: 768px) {
+  .col-1 {width: calc((100% / 12) - #{$h-gutter})}
+  .col-2 {width: calc((100% / 6) - #{$h-gutter})}
+  .col-3 {width: calc((100% / 4) - #{$h-gutter})}
+  .col-4 {width: calc((100% / 3) - #{$h-gutter})}
+  .col-5 {width: calc((8.33% * 5) - #{$h-gutter})}
+  .col-6 {width: calc((8.33% * 6) - #{$h-gutter})}
+  .col-7 {width: calc((8.33% * 7) - #{$h-gutter})}
+  .col-8 {width: calc((8.33% * 8) - #{$h-gutter})}
+  .col-9 {width: calc((8.33% * 9) - #{$h-gutter})}
+  .col-10 {width: calc((8.33% * 10) - #{$h-gutter})}
+  .col-11 {width: calc((8.33% * 11) - #{$h-gutter})}
+  .col-12 {width: calc(100% - #{$h-gutter})}
+}
