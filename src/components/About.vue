@@ -1,6 +1,6 @@
 <template>
     <section class="section-about">
-        Hello
+
     </section>
 </template>
 
@@ -12,7 +12,7 @@ export default {
 
 <style lang="scss" scoped>
     .section-about {
-        height: 100vh;
+        //height: 100vh;
 
     }
 </style>

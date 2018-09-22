@@ -96,6 +96,7 @@ export default {
             border-radius: 50%;
             //background-color: #ccc;
             text-align: center;
+            cursor: pointer;
             z-index: 20;
 
                 .icon,
@@ -161,6 +162,7 @@ export default {
 
         &__item {
             padding: 1.5rem;
+            letter-spacing: .5rem;
             text-transform: uppercase;
         }
 
@@ -176,9 +178,9 @@ export default {
             &:hover,
             &:active,
             &:focus {
-                color: #53A80D;
+                color: #111;
                 padding-bottom: .3rem;
-                border-bottom: 1px solid #53A80D;
+                //border-bottom: 1px solid #53A80D;
             }
         }
 
@@ -194,7 +196,7 @@ export default {
         }
 
         input:checked ~ .menu-background {
-            background-color: #333;
+            background-color: #E3C100;
         }
 
         input:checked + .button .icon {
@@ -244,7 +246,7 @@ export default {
             &:focus {
                 color: #53A80D;
                 padding-bottom: .3rem;
-                border-bottom: 1px solid #53A80D;
+                //border-bottom: 1px solid #53A80D;
             }
         }
 
