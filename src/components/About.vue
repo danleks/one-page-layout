@@ -12,7 +12,7 @@
             <div class="col-4 col-m-4">
                 <div class="card">
                     <div class="card__header">
-                        <img class="card__img" src="../assets/img/about-1.jpg" alt="" />
+                        <img class="card__img" src="../assets/img/about-1.jpg" alt="mountains" />
                     </div>
                     <div class="card__content">
                         <h3 class="card__heading">Responsive design</h3>
@@ -24,7 +24,7 @@
             <div class="col-4 col-m-4">
                 <div class="card">
                     <div class="card__header">
-                        <img class="card__img" src="../assets/img/about-2.jpg" alt="" />
+                        <img class="card__img" src="../assets/img/about-2.jpg" alt="a lighthouse and the sea" />
                     </div>
                     <div class="card__content">
                         <h3 class="card__heading">Parallax effect</h3>
@@ -36,7 +36,7 @@
             <div class="col-4 col-m-4">
                 <div class="card">
                     <div class="card__header">
-                        <img class="card__img" src="../assets/img/about-3.jpg" alt="" />
+                        <img class="card__img" src="../assets/img/about-3.jpg" alt="mountains and a house" />
                     </div>
                     <div class="card__content">
                         <h3 class="card__heading">No Bootstrap</h3>
@@ -51,7 +51,7 @@
             <div class="col-6">
                 <div class="card">
                     <div class="card__header">
-                        <img class="card__img" src="../assets/img/about-4.jpeg" alt="" />
+                        <img class="card__img" src="../assets/img/about-4.jpeg" alt="a house covered with grass" />
                     </div>
                     <div class="card__content">
                         <h3 class="card__heading">Two Column Left Side</h3>

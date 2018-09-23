@@ -10,28 +10,43 @@ $color-orange: #FA8B00;
 
     &:link,
     &:visited {
-        color: #fff;
+
         text-decoration: none;
     }
 
     &--green {
         background-color: $color-green;
+        color: #fff;
         &:hover {
+
             background-color: rgba($color-green, .8);
         }
     }
 
     &--red {
         background-color: $color-red;
+        color: #fff;
         &:hover {
+
             background-color: rgba( $color-red, .8);
         }
     }
 
     &--orange {
         background-color: $color-orange;
+        color: #fff;
         &:hover {
+
             background-color: rgba($color-orange, .8);
+        }
+    }
+
+    &--basic {
+        border: 1px solid #ccc;
+        background-color: #fff;
+        color: #4d4d4d;
+        &:hover {
+            background-color: #eee;
         }
     }
 }
