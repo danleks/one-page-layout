@@ -27,13 +27,18 @@ export default {
     .section-header {
         position: relative;
         height: 25vh;
-        background-image: linear-gradient(to right, rgba(#f6f6f6, .4)) ,url(../assets/img/home.jpg);
+        background-image: url(../assets/img/home.jpg);
         background-size: cover;
         background-attachment: fixed;
         // background-position-y: -7rem;
         // background-position-x: -20rem;
-        background-position: center;
+        background-position: 0 - 7rem;
         background-repeat: no-repeat;
+
+        @media(max-width: 600px) {
+            background-image: linear-gradient(to right, rgba(#f6f6f6, .4)) ,url(../assets/img/services-1.jpg);
+            background-position: center;
+        }
 
     }
 
