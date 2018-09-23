@@ -1,0 +1,28 @@
+.section-header {
+
+    .heading-secondary {
+        font-size: 3.5rem;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .3rem;
+    }
+
+    &__text {
+        font-size: 1.4rem;
+        font-weight: 300;
+        letter-spacing: .1rem;
+        text-align: center;
+    }
+
+    &--white {
+        color: #fff;
+    }
+
+    .vertically-centered {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}

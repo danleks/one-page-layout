@@ -279,8 +279,9 @@ export default {
 
         &__heading {
             font-size: 5rem;
-            font-weight: 300;
+            font-weight: 400;
             letter-spacing: .5rem;
+            text-transform: uppercase;
             line-height: 1.5;
             animation-delay: 1s;
             animation: fadeIn 3s;
@@ -309,6 +310,7 @@ export default {
             width: 30rem;
             font-size: 5rem;
             text-align: center;
+            text-transform: lowercase;
             animation: spin 20s linear infinite;
             animation-delay: 1.2s;
 
@@ -326,12 +328,13 @@ export default {
         }
 
         &__sub-text {
-            padding-top: 3rem;
-            padding-bottom: 2rem;
-            font-size: 2.4rem;
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+            font-size: 2rem;
             font-weight: 300;
             letter-spacing: .5rem;
             text-align: center;
+            text-transform: uppercase;
             animation: fadeIn 3s;
             animation-delay: 2.5s;
             animation-fill-mode: backwards;
