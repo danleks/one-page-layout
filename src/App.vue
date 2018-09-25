@@ -3,6 +3,7 @@
     <app-home></app-home>
     <app-about></app-about>
     <app-services></app-services>
+    <app-form></app-form>
   </div>
 
 </template>
@@ -11,6 +12,8 @@
 import Home from './components/Home.vue';
 import About from './components/About.vue';
 import Services from './components/Services.vue';
+import Form from './components/Form.vue';
+
 
 import {eventBus} from './main.js';
 
@@ -42,7 +45,8 @@ export default {
   components: {
     'app-home': Home,
     'app-about': About,
-    'app-services': Services
+    'app-services': Services,
+    'app-form': Form
 
   }
 }
